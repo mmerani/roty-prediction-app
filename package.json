@@ -1,8 +1,7 @@
 {
   "name": "roty_prediction_app",
   "version": "0.1.0",
-  "private": false,
-  "homepage" : "https://roty-prediction-app.herokuapp.com/",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -17,7 +16,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-native" : "expo start",
+    "android": "expo android",
+    "ios": "expo ios",
+    "build:ios": "expo build:ios",
+    "build:android": "expo build:android"
   },
   "eslintConfig": {
     "extends": "react-app"
