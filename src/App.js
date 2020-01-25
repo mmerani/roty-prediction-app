@@ -36,12 +36,12 @@ class App extends Component {
                     dropDownValue: text});
     console.log(this.state.isLoading)
     fetch('https://roty-service.herokuapp.com//predictions/', 
-      {
-        credentials: "include", 
+      { 
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
         },
+        credentials: "include",
         method: 'POST',
         body: JSON.stringify(formData)
       })
