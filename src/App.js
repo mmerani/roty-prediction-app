@@ -35,10 +35,9 @@ class App extends Component {
     this.setState({ isLoading: true,
                     dropDownValue: text});
     console.log(this.state.isLoading)
-    fetch('https://roty-service.herokuapp.com//predictions/', {
-      credentials: "include"    // added this for safari 10
-      },
+    fetch('https://roty-service.herokuapp.com//predictions/', 
       {
+        credentials: "include", 
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
