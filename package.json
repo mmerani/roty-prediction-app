@@ -16,12 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start-native" : "expo start",
-    "android": "expo android",
-    "ios": "expo ios",
-    "build:ios": "expo build:ios",
-    "build:android": "expo build:android"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
